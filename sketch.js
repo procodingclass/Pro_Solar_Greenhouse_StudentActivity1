@@ -27,7 +27,7 @@ function preload()
   display = loadImage("disp.png");
   g_house_img = loadImage("greenhouse.png")
 }
-//BP
+
 function setup() 
 {
   createCanvas(800, 500);
@@ -81,6 +81,19 @@ function draw()
   pop();
   
   makeRay();
+  
+  //Calculate Wattage
+  
+  
+  
+  
+  // Write conditions to start the first fan will be temp should be more than 30 and power_gen > =4.
+  //And the second fan will start when temp >= 30 and power_gen >= 4.
+  
+  
+  
+  
+  
   drawSprites();  
 }
 
@@ -103,6 +116,20 @@ function makeRay()
     raysGroup.setVelocityYEach(2)
     raysGroup.setVelocityXEach(vx)
     raysGroup.setLifetimeEach(134)
+     
+     //Add collision functions and callback functions
+     
+     
+     
+     
    }
   
 }
+//Create function for charge1, charge2 & temp_rise
+
+
+
+
+
+
+
